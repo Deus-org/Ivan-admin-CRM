@@ -1,0 +1,18 @@
+export interface User {
+  id: number
+  email: string
+  name: string
+  role: string
+}
+
+export interface LoginCredentials {
+  email: string
+  password: string
+}
+
+export interface Order {
+  id: number
+  userId: number
+  total: number
+  status: string
+}

@@ -1,0 +1,51 @@
+{
+  "name": "admin-crm",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.ts --fix",
+    "format": "prettier --write .",
+    "server": "json-server --watch db.json --port 3001",
+    "dev:all": "concurrently \"npm run dev\" \"npm run server\"",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@vueuse/router": "^14.2.1",
+    "axios": "^1.13.6",
+    "chart.js": "^4.5.1",
+    "date-fns": "^4.1.0",
+    "pinia": "^3.0.4",
+    "scss": "^0.2.4",
+    "vue": "^3.5.30",
+    "vue-chartjs": "^5.3.3",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^28.0.1",
+    "@types/node": "^24.12.0",
+    "@typescript-eslint/eslint-plugin": "^8.57.1",
+    "@typescript-eslint/parser": "^8.57.1",
+    "@vitejs/plugin-vue": "^6.0.5",
+    "@vitest/ui": "^4.1.1",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.9.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^10.1.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.8.0",
+    "happy-dom": "^20.8.7",
+    "jsdom": "^29.0.1",
+    "json-server": "^0.17.4",
+    "prettier": "^3.8.1",
+    "sass": "^1.98.0",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.1",
+    "vitest": "^4.1.1",
+    "vue-tsc": "^3.2.5"
+  }
+}

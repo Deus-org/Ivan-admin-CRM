@@ -1,0 +1,36 @@
+// SCSS variables that reference CSS custom properties
+// This allows theme switching to work seamlessly
+
+// Colors
+$primary: var(--primary, #1976d2);
+$primary-dark: var(--primary-dark, #1565c0);
+$secondary: var(--secondary, #424242);
+$danger: var(--danger, #d32f2f);
+$success: var(--success, #4caf50);
+$warning: var(--warning, #ff9800);
+$info: var(--info, #2196f3);
+
+// Backgrounds
+$bg-light: var(--bg-secondary, #f5f7fa);
+$bg-white: var(--bg-primary, #ffffff);
+$sidebar-bg: var(--sidebar-bg, #1a2c3e);
+$sidebar-text: var(--sidebar-text, #ecf0f1);
+$header-bg: var(--bg-primary, #ffffff);
+
+// Text
+$text-dark: var(--text-primary, #2c3e50);
+$text-light: var(--text-secondary, #7f8c8d);
+
+// Spacing
+$sidebar-width: 260px;
+$header-height: 64px;
+$mobile-breakpoint: 768px;
+
+// Shadows
+$shadow-sm: var(--shadow-sm, 0 2px 4px rgba(0, 0, 0, 0.1));
+$shadow-md: var(--shadow-md, 0 4px 6px rgba(0, 0, 0, 0.1));
+$shadow-lg: var(--shadow-lg, 0 10px 15px rgba(0, 0, 0, 0.1));
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;

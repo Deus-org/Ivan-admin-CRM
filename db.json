@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Admin",
+      "role": "admin",
+      "createdAt": "2025-01-01"
+    },
+    {
+      "id": 2,
+      "email": "user@example.com",
+      "password": "user123",
+      "name": "User",
+      "role": "admin",
+      "createdAt": "2025-02-15"
+    },
+    {
+      "name": "Ivan",
+      "email": "Ivan@example.com",
+      "role": "admin",
+      "password": "admin123",
+      "createdAt": "2026-03-24T07:49:37.948Z",
+      "id": 3
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "total": 250.75,
+      "status": "completed",
+      "createdAt": "2025-02-20"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "total": 89.99,
+      "status": "pending",
+      "createdAt": "2025-03-01"
+    },
+    {
+      "userId": 2,
+      "total": 275,
+      "status": "pending",
+      "createdAt": "2026-03-24T07:48:23.151Z",
+      "id": 3
+    },
+    {
+      "userId": 3,
+      "total": 1000,
+      "status": "completed",
+      "createdAt": "2026-03-24T07:53:51.933Z",
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "total": 123.4,
+      "status": "cancelled",
+      "createdAt": "2026-03-24T08:33:46.257Z",
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "total": 321,
+      "status": "completed",
+      "createdAt": "2026-03-24T08:34:17.131Z",
+      "id": 6
+    }
+  ],
+  "products": []
+}
