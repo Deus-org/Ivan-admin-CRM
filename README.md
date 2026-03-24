@@ -1,20 +1,64 @@
-# Vue 3 + TypeScript + Vite
+Admin CRM
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+CRM‑панель для управления пользователями и заказами. Учебный проект, демонстрирующий навыки frontend‑разработки на Vue 3 + TypeScript.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+🛠 Стек
 
-## Docker Deployment
+    Vue 3 (Composition API, <script setup>)
 
-Build the image:
-```bash
-docker build -t admin-crm .
-```
+    TypeScript
 
-Run the container:
-```bash
-docker run -p 8080:80 admin-crm
-```
+    Vite
 
-Access at http://localhost:8080
+    Pinia (state management)
 
+    Vue Router
+
+    Axios
+
+    SCSS (CSS‑переменные, миксины, адаптив)
+
+    Chart.js (графики)
+
+    json‑server (mock API)
+
+    Vitest (unit‑тесты)
+
+✨ Основные возможности
+
+    Авторизация (хранилище токена в localStorage, защита маршрутов)
+
+    CRUD для пользователей и заказов (создание, редактирование, удаление)
+
+    Пагинация и фильтрация (поиск по тексту, статус заказов)
+
+    Дашборд с графиками: общая статистика, столбчатая диаграмма по статусам, линейный график выручки по дням
+
+    Переключение светлой / тёмной темы (сохранение выбора)
+
+    Адаптивный дизайн (мобильная версия)
+
+    Кастомные уведомления (тосты)
+
+    Unit‑тесты (пример для стора)
+
+🚀 Запуск проекта
+bash
+
+# Установка зависимостей
+npm install
+
+# Запуск mock‑сервера (порт 3001)
+npm run server
+
+# Запуск dev‑сервера (порт 5173)
+npm run dev
+
+# Или одной командой
+npm run dev:all
+
+Тестовые учётные данные
+
+    Логин: admin@example.com / пароль: admin123
+
+    Или user@example.com / user123
